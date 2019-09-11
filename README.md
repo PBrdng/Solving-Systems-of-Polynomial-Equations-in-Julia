@@ -14,7 +14,8 @@ You can enter it by first starting a Julia session and then pressing `]` in the 
 We need the packages [HomotopyContinuation.jl](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl), [DynamicPolynomials.jl](https://github.com/JuliaAlgebra/DynamicPolynomials.jl), [Makie.jl](https://github.com/JuliaPlots/Makie.jl), [ImplicitPlots](https://github.com/saschatimme/ImplicitPlots) and [IJulia](https://github.com/JuliaLang/IJulia.jl). In the package manager they are installed as follows:
 
 ```julia
-pkg> add HomotopyContinuation DynamicPolynomials Makie IJulia https://github.com/saschatimme/ImplicitPlots
+pkg> add HomotopyContinuation DynamicPolynomials Makie IJulia
+pkg> add https://github.com/saschatimme/ImplicitPlots
 ```
 
 Alternatively, in the REPL you can also use
