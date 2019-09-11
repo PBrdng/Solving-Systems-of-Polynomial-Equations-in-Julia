@@ -11,10 +11,10 @@ Please see the [platform specific instructions](https://julialang.org/downloads/
 All packages that we need in this course are available through the Julia package manager.
 You can enter it by first starting a Julia session and then pressing `]` in the REPL.
 
-We need the packages [HomotopyContinuation.jl](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl), [DynamicPolynomials.jl](https://github.com/JuliaAlgebra/DynamicPolynomials.jl), [Plots.jl](https://github.com/JuliaPlots/Plots.jl) and [IJulia](https://github.com/JuliaLang/IJulia.jl). In the package manager they are installed as follows:
+We need the packages [HomotopyContinuation.jl](https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl), [DynamicPolynomials.jl](https://github.com/JuliaAlgebra/DynamicPolynomials.jl), [Makie.jl](https://github.com/JuliaPlots/Makie.jl), [ImplicitPlots](https://github.com/saschatimme/ImplicitPlots) and [IJulia](https://github.com/JuliaLang/IJulia.jl). In the package manager they are installed as follows:
 
 ```julia
-pkg> add HomotopyContinuation DynamicPolynomials Plots IJulia
+pkg> add HomotopyContinuation DynamicPolynomials Makie IJulia https://github.com/saschatimme/ImplicitPlots
 ```
 
 Alternatively, in the REPL you can also use
@@ -23,8 +23,9 @@ Alternatively, in the REPL you can also use
 julia> import Pkg
 julia> Pkg.add("HomotopyContinuation")
 julia> Pkg.add("DynamicPolynomials")
-julia> Pkg.add("Plots")
+julia> Pkg.add("Makie")
 julia> Pkg.add("IJulia")
+julia> Pkg.clone("https://github.com/saschatimme/ImplicitPlots")
 ```
 
 ### Starting IJulia
