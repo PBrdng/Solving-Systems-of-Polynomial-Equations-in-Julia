@@ -2,7 +2,7 @@
 
 This repository contains material for the course [Numerical Algebraic Geometry in Julia](https://kvv.imp.fu-berlin.de/portal/site/34e97129-0915-401f-9f0e-cef093568c18/page/7122cafb-c0cb-42e2-aefe-c014146d98c0?sakai.state.reset=true) taking place in the winter semester 2019 at FU Berlin.
 
-The simplest way to download the Jupyter notebooks from this repository is using the green download button on the top right. 
+The simplest way to download the Jupyter notebooks from this repository is using the green button on the right. 
 
 ### Installation
 Download the latest Julia version at [julialang.org](https://julialang.org/downloads/).
