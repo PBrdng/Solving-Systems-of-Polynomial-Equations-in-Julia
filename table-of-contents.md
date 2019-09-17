@@ -11,6 +11,4 @@
 
 5. Endgames
 
-6. Predictors and correctors
-
-7. Monodromy
+6. Monodromy
